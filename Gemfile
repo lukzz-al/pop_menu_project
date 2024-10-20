@@ -16,6 +16,7 @@ gem "thruster", require: false
 gem "sqlite3", ">= 2.1"
 
 # Tools
+gem "pagy", "~> 9.1"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 group :development, :test do
