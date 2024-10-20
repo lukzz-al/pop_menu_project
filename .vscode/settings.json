@@ -8,7 +8,9 @@
     "ruby.rubocop.configFilePath": ".rubocop.yml",
     "ruby.rubocop.onSave": true,
     "editor.tabSize": 2,
-		"editor.insertSpaces": false,
+    "editor.insertSpaces": false,
 		"editor.detectIndentation": false,
-    "files.eol": "\n"
+    "files.eol": "\n",
+		"prettier.useTabs": true,
+		"prettier.tabWidth": 2
 }
