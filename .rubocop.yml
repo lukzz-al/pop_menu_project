@@ -1,8 +1,26 @@
 # Omakase Ruby styling for Rails
 inherit_gem: { rubocop-rails-omakase: rubocop.yml }
 
+AllCops:
+  RubyInterpreters:
+    - jruby
+    - rbx
+    - ruby
+  Exclude:
+    - 'bin/*'
+    - 'config/*'
+    - 'db/*'
+    - 'vendor/*'
+    - 'node_modules/*'
+    - 'Gemfile'
+
+  TargetRubyVersion: 3.0
+
 Layout/IndentationStyle:
   EnforcedStyle: tabs
 
 Layout/IndentationWidth:
   Width: 2
+
+Layout/CommentIndentation:
+  Enabled: false
