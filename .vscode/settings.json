@@ -1,0 +1,10 @@
+{
+    "workbench.settings.useSplitJSON": false,
+    "notebook.editorOptionsCustomizations": {
+
+    },
+    "ruby.rubocop.executePath": "",
+    "ruby.rubocop.useBundler": false,
+    "ruby.rubocop.configFilePath": ".rubocop.yml",
+    "ruby.rubocop.onSave": true
+}
