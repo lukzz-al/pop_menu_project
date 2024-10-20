@@ -6,5 +6,7 @@
     "ruby.rubocop.executePath": "",
     "ruby.rubocop.useBundler": false,
     "ruby.rubocop.configFilePath": ".rubocop.yml",
-    "ruby.rubocop.onSave": true
+    "ruby.rubocop.onSave": true,
+    "editor.tabSize": 2,
+    "files.eol": "\n"
 }
