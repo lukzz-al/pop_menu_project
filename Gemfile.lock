@@ -106,8 +106,8 @@ GEM
       tzinfo
     factory_bot (6.5.0)
       activesupport (>= 5.0.0)
-    factory_bot_rails (6.4.3)
-      factory_bot (~> 6.4)
+    factory_bot_rails (6.4.4)
+      factory_bot (~> 6.5)
       railties (>= 5.0.0)
     ffaker (2.23.0)
     fugit (1.11.1)
@@ -135,7 +135,7 @@ GEM
       zeitwerk (~> 2.5)
     language_server-protocol (3.17.0.3)
     logger (1.6.1)
-    loofah (2.22.0)
+    loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.8.1)
@@ -358,7 +358,7 @@ DEPENDENCIES
   brakeman
   database_cleaner-active_record (~> 2.2.0)
   debug
-  factory_bot_rails (~> 6.4.3)
+  factory_bot_rails (~> 6.4.4)
   ffaker (~> 2.23.0)
   kamal (>= 2.0.0.rc2)
   pagy (~> 9.1)
