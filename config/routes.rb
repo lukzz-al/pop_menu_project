@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
 	resources :menu_item
 	resources :menu
+	resources :restaurant
 end

@@ -39,6 +39,6 @@ class MenuController < ApplicationController
 
 	private
 	def menu_params
-		params.permit(:name, :description, :price, :image_url)
+		params.permit(:name, :description, :price, :image_url, :restaurant_id)
 	end
 end
