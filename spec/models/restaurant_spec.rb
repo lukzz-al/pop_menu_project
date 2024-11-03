@@ -8,6 +8,7 @@ RSpec.describe Restaurant, type: :model do
 	end
 
 	describe 'associations' do
+		it { should belong_to(:imported_item).optional }
 		it { should have_many(:menus) }
 	end
 end
