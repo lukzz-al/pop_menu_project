@@ -15,6 +15,9 @@ gem "thruster", require: false
 # Storage
 gem "sqlite3", ">= 2.1"
 
+# Background Processing
+gem 'sidekiq', '~> 7.3'
+
 # Tools
 gem "pagy", "~> 9.1"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
