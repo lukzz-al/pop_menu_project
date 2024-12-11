@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Core
-gem "rails", "~> 8.0.0.beta1"
+gem "rails", "~> 8.0.0"
 gem "puma", ">= 5.0"
 
 gem "solid_cache"
