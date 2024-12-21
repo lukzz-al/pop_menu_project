@@ -19,7 +19,7 @@ gem "sqlite3", ">= 2.1"
 gem 'sidekiq', '~> 7.3'
 
 # Tools
-gem "pagy", "~> 9.1"
+gem "pagy", "~> 9.3"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 group :development, :test do
